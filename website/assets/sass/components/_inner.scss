@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* Inner */
 
 	.inner {
@@ -8,4 +9,29 @@
 		@include breakpoint('<=xsmall') {
 			max-width: calc(100% - 3rem);
 		}
+=======
+<<<<<<< HEAD
+/* Inner */
+
+	.inner {
+		margin: 0 auto;
+		width: _size(inner-width);
+		max-width: calc(100% - 6rem);
+
+		@include breakpoint('<=xsmall') {
+			max-width: calc(100% - 3rem);
+		}
+=======
+/* Inner */
+
+	.inner {
+		margin: 0 auto;
+		width: _size(inner-width);
+		max-width: calc(100% - 6rem);
+
+		@include breakpoint('<=xsmall') {
+			max-width: calc(100% - 3rem);
+		}
+>>>>>>> 95fb5f4567a5d404bd0e1bb8cb404b9d500c5840
+>>>>>>> Stashed changes
 	}

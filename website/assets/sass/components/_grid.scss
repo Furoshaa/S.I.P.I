@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* Grid */
 
 	@include grid(3rem);
@@ -20,4 +21,53 @@
 
 	@include breakpoint('<=xsmall') {
 		@include grid(1.25rem, 'xsmall');
+=======
+<<<<<<< HEAD
+/* Grid */
+
+	@include grid(3rem);
+
+	@include breakpoint('<=xlarge') {
+		@include grid(3rem, 'xlarge');
+	}
+
+	@include breakpoint('<=large') {
+		@include grid(1.5rem, 'large');
+	}
+
+	@include breakpoint('<=medium') {
+		@include grid(1.5rem, 'medium');
+	}
+
+	@include breakpoint('<=small') {
+		@include grid(1.25rem, 'small');
+	}
+
+	@include breakpoint('<=xsmall') {
+		@include grid(1.25rem, 'xsmall');
+=======
+/* Grid */
+
+	@include grid(3rem);
+
+	@include breakpoint('<=xlarge') {
+		@include grid(3rem, 'xlarge');
+	}
+
+	@include breakpoint('<=large') {
+		@include grid(1.5rem, 'large');
+	}
+
+	@include breakpoint('<=medium') {
+		@include grid(1.5rem, 'medium');
+	}
+
+	@include breakpoint('<=small') {
+		@include grid(1.25rem, 'small');
+	}
+
+	@include breakpoint('<=xsmall') {
+		@include grid(1.25rem, 'xsmall');
+>>>>>>> 95fb5f4567a5d404bd0e1bb8cb404b9d500c5840
+>>>>>>> Stashed changes
 	}
